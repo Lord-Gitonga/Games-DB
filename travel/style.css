@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: brown;
+    font-size: 80px;
+}
+
+p{
+    color: aqua;
+    font-size: 20px;
+    line-height: 15px;
+    align-content: normal;
+}
+
+button{
+    width: 180px;
+    color: brown;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    text-size-adjust: 1000px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card1{
+    background-image: url(Images/tim-mossholder-Y4FKY_QqGeI-unsplash.jpg);
+    text-align: center;
+    justify-content: center;
+}
+
+.card2{
+    background-image: url(Images/chin-xuan-qRAXhm1tUuk-unsplash.jpg);
+}
+
+.card3{
+    background-image: url(Images/rangarajan-ragunathan-zEZvPMjdVzs-unsplash.jpg);
+}
+
+.card4{
+    background-image: url(Images/sunita-fan-9y0ODS51KCY-unsplash.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.text1 {
+    color: brown;
+}
+
+.text2 {
+    color: aqua;
+}
+
+.text3 {
+    color: rgb(234, 18, 76);
+}
+
+.text4 {
+    color: rgb(23, 209, 66);
+}
+
+/* linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), */
